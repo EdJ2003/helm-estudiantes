@@ -3,7 +3,17 @@ entries:
   estudiantes:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2024-02-29T09:07:39.6034546-05:00"
+    created: "2024-02-29T16:32:07.24612522Z"
+    description: A Helm chart for Kubernetes
+    digest: 25b82ee885e9aa07e257d7b6874357118e9e43ce4ec87fd5acc6ad02f7830e4c
+    name: estudiantes
+    type: application
+    urls:
+    - estudiantes-20240229163206.tgz
+    version: "20240229163206"
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2024-02-29T16:32:07.245847818Z"
     description: A Helm chart for Kubernetes
     digest: 258142318ad0d16fda91a0a1021460e4800a07e6bb8ced4e767c8b82672dbcf8
     name: estudiantes
@@ -11,4 +21,4 @@ entries:
     urls:
     - estudiantes-0.2.0.tgz
     version: 0.2.0
-generated: "2024-02-29T09:07:39.6015068-05:00"
+generated: "2024-02-29T16:32:07.245394416Z"
