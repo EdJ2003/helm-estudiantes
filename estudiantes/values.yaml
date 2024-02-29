@@ -1,0 +1,21 @@
+replicaCount: 1
+app:
+  name: estudiantes
+image:
+  repository: ed2723/estudiantes
+  tag: 21
+  pullPolicy: IfNotPresent
+service:
+  name: my-microservice
+  type: ClusterIP
+  port: 8080
+database:
+  host: mysql-service
+  port: 3306
+  name: mydatabase
+  user: myuser
+  password: my-secret-pw
+hpa:
+  minReplicas: 1
+  maxReplicas: 3
+  averageUtilization: 60
