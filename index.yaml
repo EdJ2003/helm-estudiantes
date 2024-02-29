@@ -10,5 +10,5 @@ entries:
     type: application
     urls:
     - estudiantes-0.1.0.tgz
-    version: 0.1.0
+    version: 0.2.0
 generated: "2024-02-29T00:32:59.2808943-05:00"
