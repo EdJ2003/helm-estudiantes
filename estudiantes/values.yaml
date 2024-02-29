@@ -3,7 +3,7 @@ app:
   name: estudiantes
 image:
   repository: ed2723/estudiantes
-  tag: 22
+  tag: 36
   pullPolicy: IfNotPresent
 service:
   name: my-microservice
